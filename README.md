@@ -13,9 +13,7 @@ Passionné par le développement web, l'informatique et la création numérique,
 ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?logo=googlefonts&logoColor=white)
 
 ## <img src="assets/icons/folder-code-white.svg" width="22" height="22" alt="" /> À propos
-
 Ce dépôt rassemble le code source de mon portfolio, mes réalisations et mon parcours.
 
-**Localisation :** Île-de-France, France
 
 **Site web :** [paulvancaemerbeke.fr](https://paulvancaemerbeke.fr)
