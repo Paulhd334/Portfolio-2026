@@ -1,10 +1,10 @@
-# 👋 Portfolio — Paul Van Caemerbeke
+# <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/code-xml.svg" width="28" height="28" alt="Code" /> Portfolio — Paul Van Caemerbeke
 
-💻 Passionné par le développement web, l'informatique et la création numérique, je présente ici mes compétences et mes projets. Actuellement à la recherche d'une opportunité professionnelle dans l'informatique.
+Passionné par le développement web, l'informatique et la création numérique, je présente ici mes compétences et mes projets. Actuellement à la recherche d'une opportunité professionnelle dans l'informatique.
 
-🌐 **[Découvrir mon portfolio](https://paulvancaemerbeke.fr)**
+**[Découvrir mon portfolio](https://paulvancaemerbeke.fr)**
 
-## 🛠️ Technologies utilisées
+## <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/layers.svg" width="22" height="22" alt="" /> Technologies utilisées
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -12,10 +12,10 @@
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?logo=fontawesome&logoColor=white)
 ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?logo=googlefonts&logoColor=white)
 
-## 🚀 À propos
+## <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/folder-code.svg" width="22" height="22" alt="" /> À propos
 
-📂 Ce dépôt rassemble le code source de mon portfolio, mes réalisations et mon parcours.
+Ce dépôt rassemble le code source de mon portfolio, mes réalisations et mon parcours.
 
-📍 Île-de-France, France
+**Localisation :** Île-de-France, France
 
-🔗 **[Visiter le site](https://paulvancaemerbeke.fr)**
+**Site web :** [paulvancaemerbeke.fr](https://paulvancaemerbeke.fr)
