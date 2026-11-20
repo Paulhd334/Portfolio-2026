@@ -1,58 +1,227 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f9faf7">
-<title>Aventures Alpines | Paul Van Caemerbeke</title>
-<meta name="description" content="Découvrir une activité de montagne, choisir sa sortie et la réserver depuis une même application.">
-<link rel="icon" href="../assets/icon.png">
-<link rel="stylesheet" href="../assets/site.css?v=clair5">
-<script src="../assets/site.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f9faf7">
+
+    <title>Aventures Alpines | Paul Van Caemerbeke</title>
+    <meta name="description" content="Aventures Alpines, une application de découverte et de réservation d’activités en montagne développée avec React, Express et MySQL en deuxième année de BTS SIO option SLAM.">
+
+    <link rel="icon" href="../assets/icon.png">
+    <link rel="stylesheet" href="../assets/site.css?v=clair5">
+    <script src="../assets/site.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#main">Aller au contenu</a><header><div class="shell nav">
-<a href="../index.html#top" class="brand" aria-label="Paul Van Caemerbeke, accueil"><span class="mark">pv<span>.</span></span><span>Paul Van Caemerbeke</span></a><nav aria-label="Navigation principale"><a href="../index.html#projects">Projets</a><a href="../index.html#parcours">Parcours</a><a href="../index.html#competences">Compétences</a></nav><a class="contactbtn" href="../index.html#contact">Me contacter</a>
-</div></header><main class="shell case" id="main"><a class="back" href="../index.html#projects">Tous les projets</a><div class="casehead">
-<div class="over">Application web</div>
-<h1>Aventures Alpines<span>.</span>
-</h1>
-<p>Découvrir une activité de montagne, choisir sa sortie et la réserver depuis une même application.</p>
-</div>
-<div class="media screen style-alpines"><img loading="lazy" src="../assets/alpines.webp" alt="Accueil de la plateforme de réservation"></div>
-<div class="casecontent">
-<div>
-<span class="over">Rôle</span><h3>Développement full stack</h3>
-<p>Projet de formation</p>
-<div class="tags">
-<span>React</span><span>Node.js</span><span>MySQL</span>
-</div>
-</div>
-<div>
-<h2>Ma contribution<span>.</span>
-</h2>
-<p>J’ai développé le catalogue et ses filtres pour permettre aux visiteurs de trouver une activité adaptée à leur séjour.</p>
-<p>J’ai relié l’interface React à une API REST sous Express et à une base MySQL pour gérer les activités et les réservations.</p>
-<div class="actions"><a class="btn primary" href="https://github.com/Paulhd334/aventures-alpines">Voir le code</a></div>
-</div>
-</div>
-<section class="gallery"><h2>L’application en images<span>.</span>
-</h2>
-<div>
-<figure><a href="../assets/reservations.webp"><img src="../assets/reservations.webp" alt="Catalogue des sorties avec ses filtres" loading="lazy"></a><figcaption>Catalogue des sorties avec ses filtres</figcaption></figure><figure><a href="../assets/activites.webp"><img src="../assets/activites.webp" alt="Sélection de parcours d’escalade" loading="lazy"></a><figcaption>Sélection de parcours d’escalade</figcaption></figure><figure><a href="../assets/compte.webp"><img src="../assets/compte.webp" alt="Espace de gestion du compte" loading="lazy"></a><figcaption>Espace de gestion du compte</figcaption></figure>
-</div></section></main><footer id="contact"><div class="shell foot">
-<div>
-<span class="over">Contact</span><h2>Parlons d’un poste<span>.</span>
-</h2>
-<p>Développement web ou support informatique en Île-de-France.</p>
-<a class="email" href="mailto:vancaemerbekepaul@gmail.com">vancaemerbekepaul@gmail.com</a>
-</div>
-<div class="footlinks">
-<a class="btn on-dark" href="../pdf/CV_PAUL_VAN_CAEMERBEKE_2026.pdf">Mon CV en PDF</a><a class="btn on-dark" href="https://github.com/Paulhd334">GitHub</a>
-</div>
-</div>
-<div class="shell credit">
-<span>Paul Van Caemerbeke</span><span>Sucy-en-Brie, Val-de-Marne</span>
-</div></footer>
+    <a class="skip" href="#main">Aller au contenu</a>
+
+    <header>
+        <div class="shell nav">
+            <a class="brand" href="../index.html#top" aria-label="Paul Van Caemerbeke, accueil">
+                <span class="mark">pv<span>.</span></span>
+                <span>Paul Van Caemerbeke</span>
+            </a>
+
+            <nav aria-label="Navigation principale">
+                <a href="../index.html#projects">Projets</a>
+                <a href="../index.html#parcours">Parcours</a>
+                <a href="../index.html#competences">Compétences</a>
+            </nav>
+
+            <a class="contactbtn" href="../index.html#contact">Me contacter</a>
+        </div>
+    </header>
+
+    <main class="shell case" id="main">
+        <a class="back" href="../index.html#projects">Tous les projets</a>
+
+        <div class="casehead">
+            <div class="over">Application web de montagne</div>
+            <h1>Aventures Alpines<span>.</span></h1>
+            <p>
+                Une application pour préparer une sortie en montagne. Les visiteurs peuvent
+                explorer des activités de randonnée, d’escalade et de ski, réserver une sortie
+                et partager leurs expériences sous forme d’articles.
+            </p>
+        </div>
+
+        <div class="media screen style-alpines">
+            <img src="../assets/alpines.webp"
+                 alt="Page d’accueil de l’application Aventures Alpines">
+        </div>
+
+        <div class="casecontent">
+            <div>
+                <span class="over">Rôle</span>
+                <h3>Développement full stack</h3>
+                <p>Projet de formation · 2ᵉ année de BTS SIO option SLAM</p>
+
+                <div class="tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+
+            <div>
+                <h2>Ma contribution<span>.</span></h2>
+
+                <p>
+                    J’ai développé Aventures Alpines pendant ma deuxième année de BTS SIO
+                    option SLAM. Je voulais qu’un visiteur puisse partir d’une envie assez
+                    large, comme faire de l’escalade, puis trouver une sortie qui lui
+                    convient et la réserver depuis la même application.
+                </p>
+
+                <p>
+                    Avec React, j’ai créé le catalogue et ses filtres, ainsi que les pages
+                    consacrées à la randonnée, à l’escalade et au ski. J’ai aussi développé
+                    l’espace membre pour que chaque utilisateur puisse retrouver ses
+                    réservations et publier des articles sur ses aventures en montagne.
+                </p>
+
+                <p>
+                    Côté serveur, j’ai développé une API REST avec Node.js et Express pour
+                    relier l’interface à la base MySQL. Par exemple, lorsqu’un membre
+                    consulte ses réservations, l’interface interroge l’API, qui récupère
+                    les données associées à son compte et les renvoie à React pour les afficher.
+                </p>
+
+                <div class="actions">
+                    <a class="btn primary"
+                       href="https://github.com/Paulhd334/aventures-alpines"
+                       target="_blank"
+                       rel="noopener noreferrer">Voir le code sur GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="gallery" aria-labelledby="gallery-title">
+            <h2 id="gallery-title">L’application en images<span>.</span></h2>
+
+            <div class="gallery-grid">
+                <article>
+                    <figure>
+                        <a href="../assets/Aventures_Alpines/activites.webp"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/Aventures_Alpines/activites.webp"
+                                 alt="Catalogue des activités de montagne sur Aventures Alpines"
+                                 loading="lazy">
+                        </a>
+                        <figcaption>
+                            <h3>Explorer les activités</h3>
+                            <p>
+                                Le catalogue rassemble les activités de montagne.
+                                Ses filtres permettent au visiteur d’affiner sa recherche
+                                avant de consulter une sortie.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <a href="../assets/Aventures_Alpines/Aventure_Alpine_Escalade.webp"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/Aventures_Alpines/Aventure_Alpine_Escalade.webp"
+                                 alt="Page consacrée aux sorties d’escalade"
+                                 loading="lazy">
+                        </a>
+                        <figcaption>
+                            <h3>Choisir une sortie d’escalade</h3>
+                            <p>
+                                La rubrique escalade réunit les sites de pratique et les
+                                offres de sorties. Un visiteur qui a déjà choisi sa discipline
+                                peut y consulter directement les possibilités qui s’offrent à lui.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <a href="../assets/Aventures_Alpines/Inscription_Captcha.webp"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/Aventures_Alpines/Inscription_Captcha.webp"
+                                 alt="Formulaire d’inscription avec la vérification reCAPTCHA"
+                                 loading="lazy">
+                        </a>
+                        <figcaption>
+                            <h3>Créer un compte</h3>
+                            <p>
+                                Le formulaire d’inscription intègre une vérification reCAPTCHA.
+                                Une fois inscrit, le membre peut se connecter pour retrouver
+                                ses réservations et publier ses propres articles.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <a href="../assets/Aventures_Alpines/reservations.webp"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/Aventures_Alpines/reservations.webp"
+                                 alt="Interface de réservation des sorties en montagne"
+                                 loading="lazy">
+                        </a>
+                        <figcaption>
+                            <h3>Réserver une sortie</h3>
+                            <p>
+                                Après avoir choisi une activité, le membre peut réserver
+                                sa sortie. La réservation est associée à son compte pour
+                                qu’il puisse la retrouver lors de sa prochaine connexion.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <a href="../assets/Aventures_Alpines/Nos_Articles.webp"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/Aventures_Alpines/Nos_Articles.webp"
+                                 alt="Page Nos articles présentant les publications des membres"
+                                 loading="lazy">
+                        </a>
+                        <figcaption>
+                            <h3>Lire et partager des récits</h3>
+                            <p>
+                                La rubrique « Nos articles » rassemble les publications des
+                                membres. Les visiteurs peuvent y lire leurs récits, et les
+                                membres connectés peuvent à leur tour raconter une sortie.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="shell foot">
+            <div>
+                <span class="over">Contact</span>
+                <h2>Parlons d’un poste<span>.</span></h2>
+                <p>Développement web ou support informatique en Île-de-France.</p>
+                <a class="email" href="mailto:vancaemerbekepaul@gmail.com">
+                    vancaemerbekepaul@gmail.com
+                </a>
+            </div>
+
+            <div class="footlinks">
+                <a class="btn on-dark" href="../pdf/CV_PAUL_VAN_CAEMERBEKE_2026.pdf">
+                    Mon CV en PDF
+                </a>
+                <a class="btn on-dark" href="https://github.com/Paulhd334">GitHub</a>
+            </div>
+        </div>
+
+        <div class="shell credit">
+            <span>Paul Van Caemerbeke</span>
+            <span>Île-de-France</span>
+        </div>
+    </footer>
 </body>
 </html>
